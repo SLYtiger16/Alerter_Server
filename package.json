@@ -1,0 +1,19 @@
+{
+  "name": "com.coxems.stationalert.server",
+  "version": "0.1.0",
+  "description": "Alert stations from dispatch",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Kyle Meadows",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "mongodb": "^3.2.2",
+    "socket.io": "^2.2.0"
+  }
+}
